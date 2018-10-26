@@ -5,13 +5,17 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { DangerComponent } from './Assingment #1/Danger/danger.component';
+import { WarningComponent } from './Assingment #1/Warning/warning.component';
 
 @NgModule({
   declarations: [
     // imports your components
     AppComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+    WarningComponent,
+    DangerComponent
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
