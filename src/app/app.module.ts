@@ -11,8 +11,7 @@ import { ServersComponent } from './servers/servers.component';
     // imports your components
     AppComponent,
     ServerComponent,
-    ServersComponent,
-    
+    ServersComponent
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
